@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Importerat bootstrap för att komponenterna ska fungera-->
     <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="/bootstrap-5.0.2-dist/js/bootstrap.js">
     <link rel="stylesheet" href="style.css">
@@ -10,6 +11,7 @@
     <title>Monkiworld</title>
 </head>
 <body>
+  <!--Här har jag gjort en navbar-->
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand">Monkiworld</a>
@@ -23,7 +25,9 @@
       </div>
     </div>
   </nav>
+  <!--Här har jag gjort en card group där alla mina cards ligger i-->
   <div class="card-group">
+    <!--Här har jag gjort ett så kallat card-->
     <div class="card">
       <img src="/bilder/Capuchin monke.jpg" class="card-img-top" alt="...">
       <div class="card-body">
@@ -40,7 +44,7 @@
       <div class="card-body">
         <h5 class="card-title">Orangutan</h5>
         <p class="card-text">This monkey is called a Orangutan</p>
-        <a href="" class="btn btn-primary">Read more</a>
+        <a href="Orangutan.html" class="btn btn-primary">Read more</a>
       </div>
       <div class="card-footer">
         <small class="text-muted">Last updated 24 hours ago</small>
@@ -51,12 +55,18 @@
       <div class="card-body">
         <h5 class="card-title">Mandrill</h5>
         <p class="card-text">This monkey is called a Mandrill</p>
-        <a href="" class="btn btn-primary">Read more</a>
+        <a href="Mandrill.htmls" class="btn btn-primary">Read more</a>
       </div>
       <div class="card-footer">
         <small class="text-muted">Last updated 1 second ago</small>
       </div>
     </div>
   </div> 
+  <!--Här har jag en close button-->
+  <button type="button" class="btn-close" aria-label="Close"></button>
+  <!--Här är en slags rubrik så kallad alert-->
+  <div class="alert alert-primary" role="alert">
+    Apor
+  </div>
 </body>
 </html>
